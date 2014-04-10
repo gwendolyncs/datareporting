@@ -1,0 +1,66 @@
+datareporting
+=============
+Data Log 
+
+3/18/2014
+
+I wanted to do something with March Madness (who doesn’t love brackets?) but I’m having a hard time figuring out exactly what questions I want to ask the different data that’s available and how many years back I should go. For example, I like the idea of figuring out how many times an underdog (under No 4 seed) has made it to the sweet 16/elite 8/final 4 and then once I find those teams, compare their stats to see what they did differently to get that far in the competition. I’m just trying to figure out exactly what info I need to build a database. 
+
+D1 Records 
+Record books for more years
+Tournament history 
+National Rankings
+Info on what some of the abbr. mean
+
+
+Another, totally unrelated, idea I had was researching children in foster care, specifically foster kids with mental illness or disabilities. I’ve had a pretty hard time finding any data sets on that topic specifically, but I’m going to keep looking because I think it’d be interesting since most foster kids have gone through some kind of trauma, how many have since been dianogised with mental illness of some kind. How many of those with mental illness end up getting adopted or returned to their parents or other family members? Having a hard time finding exactly where that information would be – if it’s out there. 
+
+Intersection of foster care and mental health  
+HHS list of children & youth disability resources
+CDC Child Health page
+
+3/27/14
+
+I started looking through Census data to see if I could find estimates of how many foster kids were in each state. Included in the 
+I found this excel file from the DHHS Children’s Bureau that lists the entries, exits, and number of children in foster care on the last day of the federal fiscal year from the years 2003-2012. I decided to use the number of kids in care on the last day of the fiscal year, so September 30 2012. I decided to focus on states with the largest numbers of foster kids in hopes that the states were doing a decent job keeping up with this information. Overall the table shows that in almost every state, more kids enter foster care than exit it in any given year. 
+
+*These numbers are a lot smaller than the ones found in the Census table about children under 18 relationship to householder data from the Census. 
+ 
+*I couldn’t work with the file from the Children’s Bureau in excel because the cells were merged so I used SQL to find out which states had the most kids. I had trouble loading the data into SQL, not sure why. I’ll need to go back and fix some of the formatting before I finish. 
+
+Five states with largest number of kids in care on 9/30/12:
+California: 54,288
+Texas: 29,613
+New York: 23,924
+Florida: 19,536 
+Illinois: 16,637
+
+I’m just going to start with these states, but my thought was it’d be more interesting to find the mental health diagnosis data first to see if there were any trends there. Like, what if a really small state had a really big number of foster kids with mental illness? 
+
+To find out the information on mental health – this report from the government accountability office made me think that using Medicaid spending data for a particular state might help me find how much is spent on kids in foster care. The Center for Medicare and Medicaid Services has datamarts on Drug Utilization by state. I’ve found a few resources on the subjects of Medicaid spending by state as well as prescribed drugs to patients in Medicaid, so I’m trying to sort through those. 
+
+4/2/14
+
+Like we did in class, I tried to find the percent change between each year as well as the percent of change for the 9-year period. Once I did all the years, I realized that the formula was wrong so I redid it. I decided to use the 9-year percent change for the number of children in care on the last day of the fiscal year. 
+
+Arizona had the biggest increase in kids in foster care at 80.22 percent. The second largest (but not very close) is Texas with a 36.06 percent increase in kids in care. 
+
+Hawaii had the largest decrease in kids in care (almost 63 percent) and Maryland also saw a decrease of over half the number of kids in foster care (57.61 percent) 
+
+Now, I’m working on tracking down data from the states 
+
+4/10/14
+
+
+I started searching the states (Hawaii, Maryland, Arizona, Texas) to find the stats on their foster care.
+
+I started with data.gov that has data from data.hawaii.gov and data.maryland.gov. I checked for any more federal data and the datasets on foster care had no data in them? 
+ 
+
+Hawaii has data.hawaii.gov 
+Started with data.gov including data.hawaii.gov and data.maryland.gov
+
+This report from the Urban Institute gave me the idea to go through the Medicaid 
+
+This report on Medicaid Spending on foster children gave me an idea of where to start looking for data concerning foster kids with mental illness. The report is a little old (2005) but it gave an overview of how health and mental health services are given to children in foster care. 
+http://www.urban.org/uploadedPDF/311221_medicaid_spending.pdf
