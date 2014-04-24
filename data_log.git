@@ -51,3 +51,32 @@ This report on Medicaid Spending on foster children gave me an idea of where to 
 foster kids with mental illness. The report is a little old (2005) but it gave an overview of how 
 health and mental health services are given to children in foster care. 
 http://www.urban.org/uploadedPDF/311221_medicaid_spending.pdf
+
+4/24/14
+I looked at the National Summary of State Medicaid Managed Care to make sure that foster kids were covered in 
+the states I was interested in, and found that foster care children are mandatorialy enrolled in Medicaid in
+all four states. 
+
+I found the Medicaid Statistical Information System and used the Web Cube User Guide to figure out how to use the 
+most recent annual data in the Medicaid State Summaries. I also used the MSIS data dictionary to be more
+familiar with their data system. 
+
+The 2012 data is posted, but not for all 50 states - and not for the states that I’m focusing on so I used the 
+2011 state summaries. I think all I can find from this is the amount of money that’s spent on foster kids on medicaid for each state 
+and also a number of kids who are eligible and the number of kinds who are beneficiaries. 
+
+BOE: basis of eligibility 
+Uniq Elgbls Cnt: Unique Eligibles Count 
+Uniq Bene Cnt: Unique Beneficiaries Count 
+Tot Mdcd Pd Amt: Total Medicaid Paid Amount 
+
+Once I created the table for all 50 states, I saved it as an .xls file so I could compare the four states with
+the rest of the country as well as each other. I cleaned up the data
+
+After that I think I want to compare the foster care medicaid data with kids not in foster care. 
+
+
+
+
+
+
