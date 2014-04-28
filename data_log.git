@@ -75,6 +75,17 @@ the rest of the country as well as each other. I cleaned up the data
 
 After that I think I want to compare the foster care medicaid data with kids not in foster care. 
 
+4/27/14
+
+The tutorial for the MSIS didn’t work like it was supposed to so instead of finding each piece of info 
+(BOE, Program type, service type) , save it as an .xls file & then put all that info into on spreadsheet to 
+analyze it. 
+
+I decided to use the total for unique beneficiaries since that's the number of children who actual received 
+medicaid benefits. I found the number of kids who received in-patient services for mental health and the
+number that are in therapy. I found the percent of total for both service types separately and then combined 
+in-patient and therapy numbers and found the percent of the total for the combined mental health service total.
+
 
 
 
