@@ -87,12 +87,18 @@ number that are in therapy. I found the percent of total for both service types 
 in-patient and therapy numbers and found the percent of the total for the combined mental health service total.
 
 5/6/14
-I noticed that the list of states from the two different sources were in a different alphabetical order since one was the state abbreviations. When I tried to clean the data so I could put data from both sources into one spreadsheet, I noticed there were 5 : Maine, Iowa, Kansas, Oklahoma, and Utah  - that their data wasn’t included in the 2011 medicaid state summaries. What could be the reasons for that? 
+I noticed that the list of states from the two different sources were in a different alphabetical order since one was
+the state abbreviations. When I tried to clean the data so I could put data from both sources into one spreadsheet, 
+I noticed there were 5 : Maine, Iowa, Kansas, Oklahoma, and Utah  - that their data wasn’t included in the 2011 
+medicaid state summaries. What could be the reasons for that? 
 
-Number of kids forgoing Medicaid in each states – is there a state with a huge number of these? Percentage of kids eligibile forgoing Medicaid: 
+Number of kids forgoing Medicaid in each states – is there a state with a huge number of these? 
+Percentage of kids eligibile forgoing Medicaid: 
 
 Amount per kid spent on mental health: 
-Amount of benefit per person (based on number of beneficiaries of Medicaid and total amount spent on ‘mental health’ in each state) I divided the total amount paid for in-patient mental health & therapy by the number of beneficiaries to find the amount spent on each person’s mental health. 
+Amount of benefit per person (based on number of beneficiaries of Medicaid and total amount spent on ‘mental health’
+in each state) I divided the total amount paid for in-patient mental health & therapy by the number of beneficiaries 
+to find the amount spent on each person’s mental health. 
 
 Arizona: $4147.58
 Maryland: $9873.42
@@ -113,7 +119,9 @@ Hawaii $3695.59
 Florida $3944.97
 Massachusetts $3969.06
 
-I used MSIS to find the total number of kids per state who are in Medicaid and calculated the percentage of those kids who are foster kids. I had to be specific in searching for children on Medicaid and not dual enrolled in another program. NE has the largest percentage of their kids on Medicaid being in foster care. (7.60%) 
+I used MSIS to find the total number of kids per state who are in Medicaid and calculated the percentage of those kids
+who are foster kids. I had to be specific in searching for children on Medicaid and not dual enrolled in another 
+program. NE has the largest percentage of their kids on Medicaid being in foster care. (7.60%) 
 
 Arizona 1.95%
 Maryland 3.13% 
